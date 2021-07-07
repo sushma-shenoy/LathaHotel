@@ -1,0 +1,25 @@
+.displayNone {
+    display: block !important;
+}
+
+.brandName {
+    font-size: 30px;
+    color: red;
+    padding: 8px;
+    background: #ffcc33;
+    /* border: 1px darkkhaki; */
+    border-style: inset;
+}
+
+@media screen and (max-width:900px) {
+    #show-menu {
+        display: none
+    }
+}
+
+.topicHeader {
+    background: #ffcc33;
+    border: 1px solid red;
+    width: 25%;
+    margin: 20px auto;
+}

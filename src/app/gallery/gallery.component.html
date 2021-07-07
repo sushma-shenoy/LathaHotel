@@ -1,0 +1,27 @@
+<div>
+    <button class="tablink" (click)="openPage('Home', $event, 'red')">Food Items</button>
+    <button class="tablink" (click)="openPage('News', $event, 'green')" id="defaultOpen">Videos</button>
+    <button class="tablink" (click)="openPage('Contact', $event, 'blue')">Top Visitors</button>
+    <!-- <button class="tablink" (click)="openPage('About', $event, 'orange')"></button> -->
+
+    <div id="Home" class="tabcontent">
+        <ion-row style="width: 33%;" *ngFor="let food of foodItem">
+            <img height="auto" [src]="food.src">
+        </ion-row>
+    </div>
+
+    <div id="News" class="tabcontent">
+        <h3>videos</h3>
+        <p>videos!</p>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+    </div>
+</div>
