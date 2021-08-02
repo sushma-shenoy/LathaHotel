@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+   firebaseConfig : {
+    apiKey: 'AIzaSyC63fkf8-x11g6ZMR9esjmUteNiesh-Ptk',
+    authDomain: 'latha-hotel.firebaseapp.com',
+    projectId: 'latha-hotel',
+    storageBucket: 'latha-hotel.appspot.com',
+    messagingSenderId: '328994881854',
+    appId: '1:328994881854:web:ac17c3fbcfe55b818d6c6f',
+    measurementId: 'G-K4H2MJKQ78'
+  }
 };
 
 /*
